@@ -13,7 +13,10 @@ body {
 
 .buttons{
     display: flex;
-    
+}
+
+.display{
+    height: 55px;
 }
 
 .num{
@@ -30,7 +33,7 @@ body {
     height: 26.875px;
 }
 
-.nos{
+.nos, .decimal, .clear, .backspace{
     width: 100px;
 
 }
