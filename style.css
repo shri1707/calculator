@@ -29,11 +29,20 @@ body {
 .sign{
     display: flex;
     flex-direction: column;
-    width: 50px;
-    height: 26.875px;
 }
 
 .nos, .decimal, .clear, .backspace{
     width: 100px;
+    height: 100px;
 
 }
+
+#zero{
+    width: 300px;
+}
+
+.ope{
+    width: 100px;
+    height: 100px;
+}
+

@@ -54,7 +54,7 @@ buttons.forEach(button => {
             if (operator == null) {
                 firstNumStr += button.innerText;
                 val1 = display(firstNumStr);
-            } else {
+            } else if(operator!=null){
                 secondNumStr += button.innerText;
                 val2 = display(secondNumStr);
             }
