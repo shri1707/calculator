@@ -14,9 +14,15 @@ body {
 .buttons{
     display: flex;
 }
+button{
+    font-size: 30px;
+}
 
 .display{
     height: 55px;
+    background-color: gray;
+    text-align: end;
+    font-size: 30px;
 }
 
 .num{
@@ -37,6 +43,14 @@ body {
 
 }
 
+.nos{
+    background-color: gray;
+}
+
+#decimal, .clear, .backspace{
+    background-color: blanchedalmond;
+}
+
 #zero{
     width: 300px;
 }
@@ -44,5 +58,9 @@ body {
 .ope{
     width: 100px;
     height: 100px;
+    background-color: burlywood;
+}
+.equal{
+    background-color: rgb(255, 166, 0);
 }
 

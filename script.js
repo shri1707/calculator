@@ -67,6 +67,12 @@ buttons.forEach(button => {
             }
         }
         if (button.classList[0] == "ope" && button.id !== "=") {
+            if(operator!=null && secondNumStr != ""){
+                result= operate(operator,Number(firstNumStr),Number(secondNumStr))
+                display(result)
+                firstNumStr= result.toString()
+                secondNumStr=""
+            }
             operator = button.innerText;
             math = display(operator);
         }
