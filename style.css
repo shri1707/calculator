@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.buttons{
+    display: flex;
+    
+}
+
+.num{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 26.875px;
+}
+
+.nos{
+    width: 100px;
+
+}
