@@ -23,6 +23,10 @@ button{
     background-color: gray;
     text-align: end;
     font-size: 30px;
+    border-width: 2px;
+    border-style: outset;
+    border-color:gray;
+    border-image: initial;
 }
 
 .num{
