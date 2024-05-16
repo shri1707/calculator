@@ -72,6 +72,8 @@ buttons.forEach(button => {
                 display(result)
                 firstNumStr= result.toString()
                 secondNumStr=""
+                count =0
+                document.getElementById("decimal").disabled= false;
             }
             operator = button.innerText;
             math = display(operator);
@@ -82,6 +84,8 @@ buttons.forEach(button => {
             firstNumStr = result;
             secondNumStr = "";
             operator = null;
+            count=0
+            document.getElementById("decimal").disabled = false;
         }
 
         if(button.classList[0]=="clear"){
