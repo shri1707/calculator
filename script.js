@@ -62,7 +62,7 @@ buttons.forEach(button => {
 
         if(button.id=="decimal"){
             count++
-            if(count>0){
+            if(count==2){
                 button.disabled= true
             }
         }
